@@ -26,6 +26,8 @@ const emailOptions = {
   `,
 };
 
+// send email
+
 transporter
   .sendMail(emailOptions)
   .then(() => console.log("Email sent successfully!"))
